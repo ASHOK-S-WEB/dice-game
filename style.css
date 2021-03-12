@@ -1,0 +1,52 @@
+body {
+  text-align: center;
+  position: relative;
+  background-color: grey;
+}
+
+img {
+  width: 90px;
+  height: 90px;
+  padding-top: 45%;
+}
+
+.player1,
+.player2 {
+  display: inline-block;
+  padding: 5% 15%;
+}
+
+.button {
+  margin-top: 5%;
+  border-radius: 8px;
+  padding: 1% 7%;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button:hover {
+  border-radius: 12px;
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+
+.pointsdiv {
+  position: absolute;
+  right: 5px;
+  top: 1%;
+  padding: 0 5% 15% 3%;
+  padding-top: inherit;
+}
+
+.points1,
+.points2 {
+  padding: 2px 0;
+}
+
+@media (max-width: 600px) {
+  .pointsdiv {
+    position: static;
+    margin-top: 80px;
+    text-align: center;
+  }
+}

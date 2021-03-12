@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <title>Dice game</title>
+  <!--css link-->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!--Bootstrap-->
+
+</html>
+<body>
+  <h1 class="winner"></h1>
+  <h1>Dice Game</h1>
+  <div class="player-cointainer">
+    <div class="player1" id="pla1">
+    <h2 >Player 1</h2>
+    <img class="res1 " src="images/dice1.png">
+    </div>
+
+    <div class="player2" id="pla2">
+    <h2 >Player 2</h2>
+    <img class="res2" src="images/dice1.png">
+    </div>
+
+    
+
+  </div>
+
+  <input class="button" type="button" value="Roll Dice" onclick="rollDice()">
+
+  <div class="pointsdiv">
+    <h2>Points</h2><br>
+    <h3>Player 1</h3>
+    <p class="points1">0</p>
+    <h3>Player 2</h3>
+    <p class="points2">0</p>
+  </div>
+
+
+
+  <script src="index.js"></script>
+</body>
